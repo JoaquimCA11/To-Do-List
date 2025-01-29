@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    background-color: lightseagreen;
+    width: 300px;
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#adicionar-btn{
+    border: none;
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;  
+}
+
+#t{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 3px white;
+    background-color: lightseagreen;
+    color: white;
+}
+
+ul li button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
